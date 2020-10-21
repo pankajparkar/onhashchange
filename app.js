@@ -28,4 +28,3 @@ window.onhashchange = function (event) {
 
 // on page load
 onHashChange(window.location.href);
-
