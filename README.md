@@ -2,6 +2,7 @@
 
 ## Run it Locally
 
-1. `npm install`
-2. `npm start`
-3. Open `http://localhost:8080`
+- Remove `<base href="/onhashchange/" />` line from `index.html`
+- `npm install`
+- `npm start`
+- Open `http://localhost:8080`
