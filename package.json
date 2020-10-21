@@ -4,8 +4,8 @@
   "description": "On hash change",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -d src",
-    "http-server": "http-server"
+    "start": "http-server",
+    "http-server": "http-server -d src"
   },
   "repository": {
     "type": "git",
