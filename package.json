@@ -1,0 +1,22 @@
+{
+  "name": "onhashchange",
+  "version": "1.0.0",
+  "description": "On hash change",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -d src",
+    "http-server": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankajparkar/onhashchange.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/pankajparkar/onhashchange/issues"
+  },
+  "homepage": "https://github.com/pankajparkar/onhashchange#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
