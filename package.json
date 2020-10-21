@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server",
-    "http-server": "http-server -d src"
+    "http-server": "http-server",
+    "package": "copy index.html dist\\index.html && copy app.js dist\\app.js",
+    "deploy": "npm run package && npm run gh-pages",
+    "gh-pages": "npx gh-pages -d index.html"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,8 @@
   "homepage": "https://github.com/pankajparkar/onhashchange#readme",
   "devDependencies": {
     "http-server": "^0.12.3"
+  },
+  "dependencies": {
+    "deploy": "^1.0.3"
   }
 }
